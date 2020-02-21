@@ -1,0 +1,47 @@
+html{
+    background-color: grey;
+}
+main{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+}
+form{
+    margin-top:auto;
+    margin-bottom:auto;
+    display:flex;
+    padding: 10px;
+    flex-direction: column; 
+    
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    background-color: navy;
+}
+#countdownTimer{
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 70px;
+    font-family: "Lucida Console", Monaco, monospace;
+    text-shadow: 2px 2px 5px blue;
+
+    padding: 10px;
+    border: 3px solid blueviolet;
+}
+.btn-Strt{
+    padding:10px;
+    margin: 1em;
+}
+footer{
+    position: flex;
+    justify-content:center;
+    align-items: center;
+
+}
