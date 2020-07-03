@@ -6,11 +6,20 @@
     </head>
     <main>
         <body>
-            <section>
-                <div id="countdownTimer">00:00</div>
+            <div id=countdownTimer></div>
+            <form>
+                <label for="Days">Days:</label><br>
+                <input type="number" id="Days" name="Days" value=0 min=0 max=100000000000>
+                <label for="Hours">Hours:</label><br>
+                <input type="number" id="Hours" name="Hours" value=0 min=0 max=100000000000>
+                <label for="Minutes">Minutes:</label><br>
+                <input type="text" id="Minutes" name="Minutes" value=0 min=0 max=100000000000>
+                <label for="Seconds">Seconds:</label><br>
+                <input type="text" id="Seconds" name="Seconds" value=0 min=0 max=100000000000>
                 <button class="btn-Strt">Generate timer countdown sequence </button>
-                <script src="main2.js"></script>
-            </section>
+            </form>
+        <script src="main.js"></script>
         </body>
+        <footer>Countdown timer by Colin McCulloch</footer>
     </main>
 </html>
